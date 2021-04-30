@@ -5,7 +5,9 @@ var app = express();
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/index.html');
 })
-
+app.get('/link', (req, res)=>{
+    res.sendFile(__dirname + '/aryan.mkv');
+})
 
 
 

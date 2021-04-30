@@ -86,19 +86,19 @@
         img_link: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
         name: "Fullmetal Alchemist: Brotherhood",
         info: "Fullmetal Alchemist: Brotherhood is an alternate retelling of Hiromu Arakawa's Fullmetal Alchemist manga that is closer to the source material than the previous 2003 adaptation, this time covering the entire story.",
-        download_link: ""
+        download_link: "http://localhost:5000/link"
       },
       {
         img_link: "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
         name: "Steins;Gate",
         info: "The self-proclaimed mad scientist Rintarou Okabe rents out a room in a rickety old building in Akihabara, where he indulges himself in his hobby of inventing prospective 'future gadgets' with fellow lab members:",
-        download_link: ""
+        download_link: "http://localhost:5000/link1"
       },
       {
         img_link: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
         name: "Fullmetal Alchemist: Brotherhood",
         info: "Fullmetal Alchemist: Brotherhood is an alternate retelling of Hiromu Arakawa's Fullmetal Alchemist manga that is closer to the source material than the previous 2003 adaptation, this time covering the entire story.",
-        download_link: ""
+        download_link: "http://localhost:5000/link2"
       },
       {
         img_link: "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
@@ -106,6 +106,7 @@
         info: "The self-proclaimed mad scientist Rintarou Okabe rents out a room in a rickety old building in Akihabara, where he indulges himself in his hobby of inventing prospective 'future gadgets' with fellow lab members:",
         download_link: ""
       },
+     
       
       
      
@@ -120,7 +121,7 @@
           <img class="rounded-circle" src="${list[i].img_link}" alt="Generic placeholder image" width="140" height="140">
           <h2>${list[i].name}</h2>
           <p>${list[i].info}</p>
-          <p><a class="btn btn-secondary" href="#" role="button">Download »</a></p>
+          <p><a class="btn btn-secondary" href="${list[i].download_link}" role="button">Download »</a></p>
         </div>`
 
       }
